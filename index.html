@@ -190,7 +190,7 @@
 							</div>
 							<div class="col-md-4 col-sm-4 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
+									<h3>Reception</h3>
 									<i class="icon-location"></i><p>Liberty Maac Sogod Southern Leyte</p>
 									<div class="event-col">
 										<i class="icon-clock"></i>
@@ -638,10 +638,19 @@
     var d = new Date(new Date().getTime() + 45 * 120 * 120 * 2000);
 
     // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
+//     simplyCountdown('.simply-countdown-one', {
+//         year: d.getFullYear(),
+//         month: d.getMonth() + 1,
+//         day: d.getDate()
+//     });
+	simplyCountdown('.simply-countdown-one', {
+	year: 2023,
+	month: 1,
+	day: 28,
+	hours: 9,
+	minutes: 0,
+	seconds: 0,
+	enableUtc: false
     });
 
     //jQuery example
